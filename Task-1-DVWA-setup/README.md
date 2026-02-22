@@ -84,6 +84,6 @@ Linkedin Explanation video:
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Intern Details :
--Name : S.Tejasri
--Internship : ApexPlanet Cybersecurity & ethical hacking
--Task : Task1 -DVWA lab setup
+- Name : S.Tejasri
+- Internship : ApexPlanet Cybersecurity & ethical hacking
+- Task : Task1 -DVWA lab setup
