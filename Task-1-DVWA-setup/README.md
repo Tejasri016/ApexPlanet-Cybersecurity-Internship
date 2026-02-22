@@ -24,8 +24,7 @@ This lab enables safe practice of web application security concepts in a control
 Installed Apache, MariaDB, PHP and required dependencies inside Kali Linux.
 
 ### 2️. Downloaded DVWA
-
-```bash
+---bash
 sudo git clone https://github.com/digininja/DVWA.git /var/www/html/DVWA
 
 ### 3. Configured Database
@@ -37,13 +36,13 @@ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/DVWA
 
 ### 4. Started Required Services
 
-```bash
+---bash
   sudo systemctl start apache2
   sudo systemctl start mariadb
 
-** 5. Verified service status **
+### 5. Verified service status
 
-```bash
+---bash
    sudo systemctl status apache2
    sudo systemctl status mariadb
 Both services were active and running successfully
@@ -56,7 +55,8 @@ The DVWA login page appeared successfully confirming proper configuration
 
 ----------------------------------------------------------------------------------------------------------------------
 
-*** Screenshots :
+## Screenshots :
+
 ### Apache Service Running
 ![Apache Status](Screenshots/apache_service.png)
 ### MariaDB Service Running
@@ -66,12 +66,14 @@ The DVWA login page appeared successfully confirming proper configuration
 
 -----------------------------------------------------------------------------------------------------------------------
 ## Video walkthrough :
+
 Linkedin Explanation video:
 👉
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Learning Outcomes :
+
 - Understood Linux service management  
 - Configured Apache and MariaDB services  
 - Established web application and database connectivity  
