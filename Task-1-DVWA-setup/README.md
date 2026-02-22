@@ -70,7 +70,7 @@ The DVWA login page appeared successfully confirming proper configuration
 ## Video walkthrough :
 
 Linkedin Explanation video:
-👉
+👉https://www.linkedin.com/posts/tejasri-somarouthu-78aa83355_internship-cybersecurity-ethicalhacking-activity-7431410171395923968-Fo6Y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFidKJoBRLvumfdgwfmIDItuHoJpdXkBZuI
 
 ------------------------------------------------------------------------------------------------------------------------
 
