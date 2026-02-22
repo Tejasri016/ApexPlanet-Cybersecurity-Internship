@@ -36,13 +36,13 @@ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/DVWA
 
 ### 4. Started Required Services
 
----bash
+```bash
   sudo systemctl start apache2
   sudo systemctl start mariadb
 
 ### 5. Verified service status
 
----bash
+```bash
    sudo systemctl status apache2
    sudo systemctl status mariadb
 Both services were active and running successfully
