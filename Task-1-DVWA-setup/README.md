@@ -41,7 +41,7 @@ sudo git clone https://github.com/digininja/DVWA.git /var/www/html/DVWA
   sudo systemctl start apache2
   sudo systemctl start mariadb
 
-### 5. Verified service status
+** 5. Verified service status **
 
 ```bash
    sudo systemctl status apache2
