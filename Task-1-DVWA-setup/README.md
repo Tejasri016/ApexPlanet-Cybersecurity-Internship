@@ -62,7 +62,7 @@ The DVWA login page appeared successfully confirming proper configuration
 ### MariaDB Service Running
 ![MariaDB Status](Screenshots/mariadb_service.png)
 ### DVWA Login Page
-![DVWA Login](Screenshots/dvwa_loginpage.png)
+![DVWA Login](Screenshots/DVWALoginpage.png)
 
 -----------------------------------------------------------------------------------------------------------------------
 ## Video walkthrough :
