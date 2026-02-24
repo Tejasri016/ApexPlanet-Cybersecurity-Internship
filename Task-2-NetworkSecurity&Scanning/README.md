@@ -71,6 +71,8 @@ username = admin password = password
 
 ### 🔹 POST Request Filter Applied
 ![POST Filter](screenshots/post_filter.png)
+![POST Filter](screenshots/http.png)
+
 
 ### 🔹 Credentials Visible in Plain Text
 ![Credentials](screenshots/credentials_visible.png)
