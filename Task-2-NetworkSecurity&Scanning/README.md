@@ -67,15 +67,15 @@ username = admin password = password
 ## 📸 Screenshots
 
 ### 🔹 HTTP Traffic Capture
-![HTTP Traffic](screenshots/http_capture.png)
+![HTTP Traffic](Screenshots/http_capture.png)
 
 ### 🔹 POST Request Filter Applied
-![POST Filter](screenshots/post_filter.png)
-![POST Filter](screenshots/http.png)
+![POST Filter](Screenshots/post_filter.png)
+![POST Filter](Screenshots/http.png)
 
 
 ### 🔹 Credentials Visible in Plain Text
-![Credentials](screenshots/credentials_visible.png)
+![Credentials](Screenshots/credentials_visible.png)
 
 
 ---
