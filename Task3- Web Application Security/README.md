@@ -59,17 +59,16 @@ screenshots/security_low.png
 
 Step 4: Configure Browser Proxy for Burp Suite
 Go to:
-Copy code
-
 Settings → Network Settings → Manual Proxy Configuration
+
 Set the following:
-Copy code
 
 HTTP Proxy: 127.0.0.1
 Port: 8080
 This routes browser traffic through Burp Suite.
 
 screenshots/proxy_config.png
+
 ### Step 5: Enable Intercept in Burp Suite
 Open Burp Suite Community Edition
 Navigate to:
@@ -92,12 +91,12 @@ Burp will intercept the POST request
 Captured request body:
 username=admin&password=password&Login=Login
 
-###🔎 Observation:
+### Observation:
 The credentials are transmitted in plain text because the application uses HTTP instead of HTTPS.
 
-screenshots/6_credentials_visible.png
+screenshots/credentials_visible.png
 
-###Step 7: Perform Request Tampering
+### Step 7: Perform Request Tampering
 Before forwarding the intercepted request:
 Modify:
 password=password
