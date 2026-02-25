@@ -37,6 +37,7 @@ Open terminal in Kali Linux and run:
 sudo service apache2 start
 sudo service mysql start
 
+----
 ### Step 2: Open DVWA in browser
 Open firefox and navigate to:
 
@@ -49,6 +50,7 @@ Password : password
 
 screenshots/dvwa_home.png
 
+------
 ### Step 3: Set security level to low
 1. Click on DVWA security
 2. Select Low
@@ -69,6 +71,7 @@ This routes browser traffic through Burp Suite.
 
 screenshots/proxy_config.png
 
+------
 ### Step 5: Enable Intercept in Burp Suite
 Open Burp Suite Community Edition
 Navigate to:
@@ -80,6 +83,7 @@ Burp will now capture HTTP requests before they reach the server.
 
 screenshots/intercept_request.png
 
+------
 ### Step 6: Intercept Login Request
 Logout from DVWA
 Login again using:
@@ -91,11 +95,13 @@ Burp will intercept the POST request
 Captured request body:
 username=admin&password=password&Login=Login
 
+------
 ### Observation:
 The credentials are transmitted in plain text because the application uses HTTP instead of HTTPS.
 
 screenshots/credentials_visible.png
 
+-----
 ### Step 7: Perform Request Tampering
 Before forwarding the intercepted request:
 Modify:
@@ -107,6 +113,7 @@ Click Forward.
 
 screenshots/password_modified.png
 
+-----
 ### Step 8: Observe Authentication Failure
 After modifying the password, login fails.
 
@@ -117,6 +124,7 @@ This confirms that:
 
 screenshots/8_login_failed.png
 
+-----
 ### Security Findings
 * Login credentials transmitted in plain text
 * Authentication request can be intercepted
@@ -124,6 +132,7 @@ screenshots/8_login_failed.png
 * No encryption protection
 * Session configuration visible in cookies
 
+------
 ### Security Risks
 * If deployed without HTTPS:
 * Credentials can be captured via packet sniffing
@@ -131,6 +140,7 @@ screenshots/8_login_failed.png
 * Session hijacking risks
 * Data tampering during transmission
 
+------
 ### Recommended Prevention Techniques
 * Implement HTTPS (TLS encryption)
 * Use secure and HttpOnly cookies
@@ -139,6 +149,7 @@ screenshots/8_login_failed.png
 * Use prepared statements for database queries
 * Enforce secure session management
 
+-------
 ### Learning Outcomes
 * Understanding HTTP request structure
 * Using Burp Suite for traffic interception
@@ -146,6 +157,7 @@ screenshots/8_login_failed.png
 * Identifying insecure authentication mechanisms
 * Understanding application-layer vulnerabilities
 
+-------
 ### Conclusion
 This experiment demonstrates how web applications can be vulnerable to interception and request tampering when secure communication protocols are not implemented.
 It highlights the importance of encryption, validation, and secure session handling in modern web applications.
