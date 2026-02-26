@@ -33,10 +33,10 @@ This project is performed in a controlled lab environment for educational purpos
 
 Open terminal in Kali Linux and run:
 
----bash
+```bash
 sudo service apache2 start
 sudo service mysql start
-
+```
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/d0c54ee1-e70f-4ca9-8f77-04b3ed6f1843" />
 
 ----
