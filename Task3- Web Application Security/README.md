@@ -63,8 +63,9 @@ This ensures vulnerabilities are enabled for demonstration purposes
 
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/9c43af1c-4d98-4b71-8010-81d90d86a7ec" />
 
+----
 
-Step 4: Configure Browser Proxy for Burp Suite
+### Step 4: Configure Browser Proxy for Burp Suite
 Go to:
 Settings → Network Settings → Manual Proxy Configuration
 
