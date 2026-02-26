@@ -81,7 +81,7 @@ Proxy -> Intercept
 Turn Intercept ON
 Burp will now capture HTTP requests before they reach the server.
 
-![intercept status](screenshots/intercept_request.png)
+![intercept status](screenshots/intercept.png)
 
 ------
 ### Step 6: Intercept Login Request
@@ -94,12 +94,13 @@ Burp will intercept the POST request
 
 Captured request body:
 username=admin&password=password&Login=Login
+![intercept status](screenshots/intercept_request.png)
 
 ------
 ### Observation:
 The credentials are transmitted in plain text because the application uses HTTP instead of HTTPS.
 
-![plain-text](screenshots/credentials_visible.png)
+![plain-text](screenshots/credentials_plaintext.png)
 
 -----
 ### Step 7: Perform Request Tampering
