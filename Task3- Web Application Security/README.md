@@ -57,7 +57,7 @@ screenshots/dvwa_home.png
 3. Click Submit
 This ensures vulnerabilities are enabled for demonstration purposes
 
-screenshots/security_low.png
+![dvwa-security](screenshots/security_low.png)
 
 Step 4: Configure Browser Proxy for Burp Suite
 Go to:
@@ -69,7 +69,7 @@ HTTP Proxy: 127.0.0.1
 Port: 8080
 This routes browser traffic through Burp Suite.
 
-screenshots/proxy_config.png
+![proxy-configuration](screenshots/proxy_config.png)
 
 ------
 ### Step 5: Enable Intercept in Burp Suite
@@ -81,7 +81,7 @@ Proxy -> Intercept
 Turn Intercept ON
 Burp will now capture HTTP requests before they reach the server.
 
-screenshots/intercept_request.png
+![intercept status](screenshots/intercept_request.png)
 
 ------
 ### Step 6: Intercept Login Request
@@ -99,7 +99,7 @@ username=admin&password=password&Login=Login
 ### Observation:
 The credentials are transmitted in plain text because the application uses HTTP instead of HTTPS.
 
-screenshots/credentials_visible.png
+![plain-text](screenshots/credentials_visible.png)
 
 -----
 ### Step 7: Perform Request Tampering
@@ -111,7 +111,7 @@ To:
 password=wrongpass
 Click Forward.
 
-screenshots/password_modified.png
+![password-modification](screenshots/password_modified.png)
 
 -----
 ### Step 8: Observe Authentication Failure
@@ -122,7 +122,7 @@ This confirms that:
 - Server processes manipulated input
 - Request tampering is possible without encryption
 
-screenshots/8_login_failed.png
+![login-failed](screenshots/login_failed.png)
 
 -----
 ### Security Findings
