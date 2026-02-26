@@ -82,6 +82,7 @@ Turn Intercept ON
 Burp will now capture HTTP requests before they reach the server.
 
 ![intercept status](screenshots/intercept.png)
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/ab3eb59c-7638-4345-a9da-fcc8dc9ff3d4" />
 
 ------
 ### Step 6: Intercept Login Request
