@@ -141,7 +141,8 @@ This confirms that:
 - Server processes manipulated input
 - Request tampering is possible without encryption
 
-![login-failed](screenshots/login_failed.png)
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/4ebb937b-7307-4813-8626-7313118dc51e" />
+
 
 -----
 ### Security Findings
