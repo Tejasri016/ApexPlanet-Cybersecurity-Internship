@@ -101,8 +101,8 @@ Burp will now capture HTTP requests before they reach the server.
 ### Step 6: Intercept Login Request
 Logout from DVWA
 Login again using:
-|Username:| admin   |
-|Password:| password|
+Username: admin   
+Password: password
 
 Burp will intercept the POST request
 
