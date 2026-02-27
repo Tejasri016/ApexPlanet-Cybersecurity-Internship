@@ -1,0 +1,28 @@
+Incident Report – DVWA Capstone Project
+
+Date: [27-02-2026]
+
+Summary:
+During security testing of DVWA (Low Security Level), multiple vulnerabilities were successfully exploited.
+
+Observed Attacks:
+1. SQL Injection using payload: 1' OR '1'='1
+2. Command Injection using: 127.0.0.1 && whoami
+3. Stored and Reflected XSS payload execution
+4. Malicious file upload (shell.php)
+5. Remote command execution using ?cmd=whoami
+
+Log Evidence:
+Apache access.log recorded HTTP GET requests for:
+- shell.php upload
+- Command execution attempts
+- SQL injection queries
+
+Actions Taken:
+- Identified malicious uploaded file in hackable/uploads
+- Deleted shell.php
+- Reviewed Apache logs
+- Restarted Apache service
+
+Conclusion:
+This activity demonstrates how improper input validation and file handling can lead to Remote Command Execution and system compromise.
