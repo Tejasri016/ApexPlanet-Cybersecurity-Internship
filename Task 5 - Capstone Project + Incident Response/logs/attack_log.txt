@@ -1,0 +1,3 @@
+127.0.0.1 - - [26/Feb/2026] "GET /DVWA/vulnerabilities/upload/shell.php?cmd=whoami HTTP/1.1" 200
+127.0.0.1 - - [26/Feb/2026] "POST /DVWA/vulnerabilities/sqli/ HTTP/1.1" 200
+127.0.0.1 - - [26/Feb/2026] "GET /DVWA/vulnerabilities/exec/ HTTP/1.1" 200
