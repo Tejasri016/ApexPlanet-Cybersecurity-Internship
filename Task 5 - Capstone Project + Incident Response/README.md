@@ -142,10 +142,18 @@ ufw deny from 127.0.0.1
 ## ⚠ Disclaimer
 
 This project was performed in a controlled lab environment for educational purposes only.
+
 No unauthorized systems were targeted.
+
+## Video Walkthrough
+Linkenin Link :
+
+https://www.linkedin.com/posts/tejasri-somarouthu-78aa83355_cybersecurity-cse-penetrationtesting-activity-7433333328193183744-s_5U?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFidKJoBRLvumfdgwfmIDItuHoJpdXkBZuI
 
 ## 📬 Author
 
 Name: Your Name
+
 Course: B.Tech CSE
+
 Focus Area: Cybersecurity & Application Security
