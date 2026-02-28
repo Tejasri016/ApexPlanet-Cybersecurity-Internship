@@ -31,59 +31,59 @@ This project was completed as the **Final Capstone Task** of my Cybersecurity & 
 
 ## 🔎 Phase 1: Reconnaissance & Enumeration
 
-* Command used:
+- Command used:
 
 ```bash
 nmap -sV 127.0.0.1
-````
+```
 
 ### Findings:
 
-* Identified open ports
+- Identified open ports
 
-* Detected Apache running on port 80
+- Detected Apache running on port 80
 
-* Confirmed web application exposure
+- Confirmed web application exposure
 
 ## 💥 Phase 2: Exploitation
 ### 1️⃣ SQL Injection
 
-* Demonstrated authentication bypass
+- Demonstrated authentication bypass
 
-* Retrieved database records
+- Retrieved database records
 
-* Showed impact of improper input validation
+- Showed impact of improper input validation
 
 ### 2️⃣ File Upload Vulnerability
 
-* Uploaded malicious PHP file
+- Uploaded malicious PHP file
 
-* Demonstrated Remote Code Execution risk
+- Demonstrated Remote Code Execution risk
 
-* Highlighted insecure file handling
+- Highlighted insecure file handling
 
 ### 3️⃣ Weak Authentication Testing
 
-* Tested basic brute-force scenarios
+- Tested basic brute-force scenarios
 
-* Identified lack of rate limiting
+- Identified lack of rate limiting
 
 ## 🚨 Phase 3: Incident Detection & Response
 ### 🔍 Detection
 
-* Analyzed Apache access logs:
+- Analyzed Apache access logs:
 
 ```bash
 cat /var/log/apache2/access.log
-````
+```
 
-* Identified suspicious requests
+- Identified suspicious requests
 
-* Observed malicious patterns in logs
+- Observed malicious patterns in logs
 
 ### 🛑 Containment
 
-* Blocked attacker IP using firewall:
+- Blocked attacker IP using firewall:
 
 ```bash
 ufw deny from 127.0.0.1
@@ -91,19 +91,19 @@ ufw deny from 127.0.0.1
 
 ### 🔧 Eradication
 
-* Applied secure coding practices
+- Applied secure coding practices
 
-* Increased DVWA security level
+- Increased DVWA security level
 
-* Implemented input validation strategies
+- Implemented input validation strategies
 
 ### 🔄 Recovery
 
-* Restarted services
+- Restarted services
 
-* Retested application to confirm mitigation
+- Retested application to confirm mitigation
 
-* Validated system stability after patching
+- Validated system stability after patching
 
 ## 🧠 Key Concepts Applied
 
@@ -152,7 +152,7 @@ https://www.linkedin.com/posts/tejasri-somarouthu-78aa83355_cybersecurity-cse-pe
 
 ## 📬 Author
 
-Name: Your Name
+Name: S.Tejasri
 
 Course: B.Tech CSE
 
